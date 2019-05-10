@@ -138,7 +138,7 @@ while (cap.isOpened()):
         dst = cv2.add(roi_bg, roi_fg)
         img[shirt_y1:shirt_y2, shirt_x1:shirt_x2] = dst
         break
-#¾ó±¼ ¾ÈÀâÈú ¶§ µå·¹½º ¶ç¿ì´Â ÄÚµå Ãß°¡
+#ì–¼êµ´ ì•ˆì¡í ë•Œ ë“œë ˆìŠ¤ ë„ìš°ëŠ” ì½”ë“œ ì¶”ê°€
     face_glass_roi_color = img[100:200, 10:200]
     face_cigar_roi_color = img[200:300, 10:100]
 
